@@ -5,13 +5,13 @@ LEGO is a synthetic reasoning task that encapsulates the problem of following a 
 This initial release contains routines for generating the LEGO dataset and for reproducing an essential part of the experimental results in the paper.
 
 ## Requirements
-Our current implementation is based on Pytorch and the Transformer library from Huggingface. 
+Our current implementation is based on Pytorch and the Transformer library from Hugging Face. 
 
 To install the required dependencies:
 
     pip install -r requirements.txt
     
-## Training DEMO
+## Training demo
 
 We provide a demo of training Transformer model to solve LEGO in [demo.ipynb](demo.ipynb). A full run of 200 epochs may take ~3 hours on 4x Nvidia V100 GPUs.
 
