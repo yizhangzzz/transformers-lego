@@ -12,7 +12,7 @@ To install the required dependencies:
     pip install -r requirements.txt
     
 ## DATASET generator
-The code for generating the LEGO dataset is included in [lego_data.py](lego_data.py). One may obtain Pytorch training and test loaders using the following call:
+The code for generating the LEGO dataset is included in [lego_data.py](lego_data.py). One may obtain Pytorch dataloaders using the following call:
 
     trainloader, testloader = make_lego_datasets(tokenizer, n_var, n_train, n_test, batch_size)
     
