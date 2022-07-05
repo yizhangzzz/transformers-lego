@@ -1,7 +1,7 @@
 # LEGO (Learning Equality and Group Operation) Dataset
 ###      from paper [Unveiling Transformers with LEGO](https://arxiv.org/abs/2206.04301)
 
-LEGO is a synthetic reasoning task that encapsulates the problem of following a chain of reasoning, proposed to study how the Transformer models learn and perform logical reaoning.
+LEGO is a synthetic task that encapsulates the problem of following a chain of reasoning, proposed to study how the Transformer models learn and perform symbolic logics.
 This initial release contains routines for generating the LEGO dataset and for reproducing an essential part of the experimental results in the paper.
 
 ## Requirements
@@ -10,6 +10,11 @@ Our current implementation is based on Pytorch and the Transformer library from 
 To install the required dependencies:
 
     pip install -r requirements.txt
+    
+## DATASET generator
+The code for generating the LEGO dataset is included in [lego_data.py](lego_data.py). One may obtain Pytorch training and test loaders using the following call:
+
+    trainloader, testloader = make_lego_datasets(tokenizer, n_var, n_train, n_test, batch_size)
     
 ## Training demo
 
