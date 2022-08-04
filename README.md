@@ -1,4 +1,4 @@
-# LEGO (Learning Equality and Group Operation) Dataset
+# LEGO (Learning Equality and Group Operations) Dataset
 ###      from paper [Unveiling Transformers with LEGO](https://arxiv.org/abs/2206.04301)
 
 LEGO is a synthetic task that encapsulates the problem of following a chain of reasoning, proposed to study how the Transformer models learn and perform symbolic logics.
